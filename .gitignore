@@ -1,0 +1,6 @@
+clean_data
+output/add_labels
+output/pick_otus
+output/validate_mapping
+.Rproj.user
+yang_analysis.Rproj
