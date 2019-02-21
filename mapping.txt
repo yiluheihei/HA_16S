@@ -1,61 +1,91 @@
-#SampleID	BarcodeSequence	LinkerPrimerSequence	Treatment	Time	InputFileName	Description
-C1.0			control	0	CR.0.1.fna	CR1_0
-C1.14			control	14	CR.14.1.fna	CR1_14
-C1.28			control	28	CR.28.1.fna	CR1_28
-C2.0			control	0 	CR.0.2.fna	CR2_0
-C2.14			control	14	CR.14.2.fna	CR2_14
-C2.28			control	28	CR.28.2.fna	CR2_28
-C3.0			control	0	CR.0.3.fna	CR3_0
-C3.14			control	14	CR.14.3.fna	CR3_14
-C3.28			control	28	CR.28.3.fna	CR3_28
-C4.0			control	0	CR.0.4.fna	CR4_0
-C4.14			control	14	CR.14.4.fna	CR4_14
-C4.28			control	28	CR.28.4.fna	CR4_28
-C5.0			control	0	CR.0.5.fna	CR5_0
-C5.14			control	14	CR.14.5.fna	CR5_14
-C5.28			control	28	CR.28.5.fna	CR5_28
-C6.0			control	0	CR.0.6.fna	CR6_0
-C6.14			control	14	CR.14.6.fna	CR6_14
-C6.28			control	28	CR.28.6.fna	CR6_28
-C7.0			control	0 	CR.0.7.fna	CR7_0
-C7.14			control	14	CR.14.7.fna	CR7_14
-C7.28			control	28	CR.28.7.fna	CR7_28
-C8.0			control	0	CR.0.8.fna	CR8_0
-C8.14			control	14	CR.14.8.fna	CR8_14
-C8.28			control	28	CR.28.8.fna	CR8_28
-C9.0			control	0	CR.0.9.fna	CR9_0
-C9.14			control	14	CR.14.9.fna	CR9_14
-C9.28			control	28	CR.28.9.fna	CR9_28
-C10.0			control	0	CR.0.10.fna	CR10_0
-C10.14			control	14	CR.14.10.fna	CR10_14
-C10.28			control	28	CR.28.10.fna	CR10_28
-H1.0			heat	0	HA.0.1.fna	HA1_0
-H1.14			heat	14	HA.14.1.fna	HA1_14
-H1.28			heat	28	HA.28.1.fna	HA1_28
-H2.0			heat	0	HA.0.2.fna	HA2_0
-H2.14			heat	14	HA.14.2.fna	HA2_14
-H2.28			heat	28	HA.28.2.fna	HA2_28
-H3.0			heat	0	HA.0.3.fna	HA3_0
-H3.14			heat	14	HA.14.3.fna	HA3_14
-H3.28			heat	28	HA.28.3.fna	HA3_28
-H4.0			heat	0	HA.0.4.fna	HA4_0
-H4.14			heat	14	HA.14.4.fna	HA4_14
-H4.28			heat	28	HA.28.4.fna	HA4_28
-H5.0			heat	0	HA.0.5.fna	HA5_0
-H5.14			heat	14	HA.14.5.fna	HA5_14
-H5.28			heat	28	HA.28.5.fna	HA5_28
-H6.0			heat	0	HA.0.6.fna	HA6_0
-H6.14			heat	14	HA.14.6.fna	HA6_14
-H6.28			heat	28	HA.28.6.fna	HA6_28
-H7.0			heat	0	HA.0.7.fna	HA7_0
-H7.14			heat	14	HA.14.7.fna	HA7_14
-H7.28			heat	28	HA.28.7.fna	HA7_28
-H8.0			heat	0	HA.0.8.fna	HA8_0
-H8.14			heat	14	HA.14.8.fna	HA8_14
-H8.28			heat	28	HA.28.8.fna	HA8_28
-H9.0			heat	0	HA.0.9.fna	HA9_0
-H9.14			heat	14	HA.14.9.fna	HA9_14
-H9.28			heat	28	HA.28.9.fna	HA9_28
-H10.0			heat	0	HA.0.10.fna	HA10_0
-H10.14			heat	14	HA.14.10.fna	HA10_14
-H10.28			heat	28	HA.28.10.fna	HA10_28
+#SampleID	BarcodeSequence	LinkerPrimerSequence	Treatment	Time	InputFileName	stage	Description
+C1.0			control	0	CR.0.1.fna	1	CR1_0
+C1.14			control	14	CR.14.1.fna	1	CR1_14
+C1.28			control	28	CR.28.1.fna	1	CR1_28
+C2.0			control	0	CR.0.2.fna	1	CR2_0
+C2.14			control	14	CR.14.2.fna	1	CR2_14
+C2.28			control	28	CR.28.2.fna	1	CR2_28
+C3.0			control	0	CR.0.3.fna	1	CR3_0
+C3.14			control	14	CR.14.3.fna	1	CR3_14
+C3.28			control	28	CR.28.3.fna	1	CR3_28
+C4.0			control	0	CR.0.4.fna	1	CR4_0
+C4.14			control	14	CR.14.4.fna	1	CR4_14
+C4.28			control	28	CR.28.4.fna	1	CR4_28
+C5.0			control	0	CR.0.5.fna	1	CR5_0
+C5.14			control	14	CR.14.5.fna	1	CR5_14
+C5.28			control	28	CR.28.5.fna	1	CR5_28
+C6.0			control	0	CR.0.6.fna	1	CR6_0
+C6.14			control	14	CR.14.6.fna	1	CR6_14
+C6.28			control	28	CR.28.6.fna	1	CR6_28
+C7.0			control	0	CR.0.7.fna	1	CR7_0
+C7.14			control	14	CR.14.7.fna	1	CR7_14
+C7.28			control	28	CR.28.7.fna	1	CR7_28
+C8.0			control	0	CR.0.8.fna	1	CR8_0
+C8.14			control	14	CR.14.8.fna	1	CR8_14
+C8.28			control	28	CR.28.8.fna	1	CR8_28
+C9.0			control	0	CR.0.9.fna	1	CR9_0
+C9.14			control	14	CR.14.9.fna	1	CR9_14
+C9.28			control	28	CR.28.9.fna	1	CR9_28
+C10.0			control	0	CR.0.10.fna	1	CR10_0
+C10.14			control	14	CR.14.10.fna	1	CR10_14
+C10.28			control	28	CR.28.10.fna	1	CR10_28
+H1.0			heat	0	HA.0.1.fna	1	HA1_0
+H1.14			heat	14	HA.14.1.fna	1	HA1_14
+H1.28			heat	28	HA.28.1.fna	1	HA1_28
+H2.0			heat	0	HA.0.2.fna	1	HA2_0
+H2.14			heat	14	HA.14.2.fna	1	HA2_14
+H2.28			heat	28	HA.28.2.fna	1	HA2_28
+H3.0			heat	0	HA.0.3.fna	1	HA3_0
+H3.14			heat	14	HA.14.3.fna	1	HA3_14
+H3.28			heat	28	HA.28.3.fna	1	HA3_28
+H4.0			heat	0	HA.0.4.fna	1	HA4_0
+H4.14			heat	14	HA.14.4.fna	1	HA4_14
+H4.28			heat	28	HA.28.4.fna	1	HA4_28
+H5.0			heat	0	HA.0.5.fna	1	HA5_0
+H5.14			heat	14	HA.14.5.fna	1	HA5_14
+H5.28			heat	28	HA.28.5.fna	1	HA5_28
+H6.0			heat	0	HA.0.6.fna	1	HA6_0
+H6.14			heat	14	HA.14.6.fna	1	HA6_14
+H6.28			heat	28	HA.28.6.fna	1	HA6_28
+H7.0			heat	0	HA.0.7.fna	1	HA7_0
+H7.14			heat	14	HA.14.7.fna	1	HA7_14
+H7.28			heat	28	HA.28.7.fna	1	HA7_28
+H8.0			heat	0	HA.0.8.fna	1	HA8_0
+H8.14			heat	14	HA.14.8.fna	1	HA8_14
+H8.28			heat	28	HA.28.8.fna	1	HA8_28
+H9.0			heat	0	HA.0.9.fna	1	HA9_0
+H9.14			heat	14	HA.14.9.fna	1	HA9_14
+H9.28			heat	28	HA.28.9.fna	1	HA9_28
+H10.0			heat	0	HA.0.10.fna	1	HA10_0
+H10.14			heat	14	HA.14.10.fna	1	HA10_14
+H10.28			heat	28	HA.28.10.fna	1	HA10_28
+C11.0			control	0	CR.0.11.fna	2	CR11_0
+C11.14			control	14	CR.14.11.fna	2	CR11_14
+C11.28			control	28	CR.28.11.fna	2	CR11_28
+C12.0			control	0	CR.0.12.fna	2	CR12_0
+C12.14			control	14	CR.14.12.fna	2	CR12_14
+C12.28			control	28	CR.28.12.fna	2	CR12_28
+C13.0			control	0	CR.0.13.fna	2	CR13_0
+C13.14			control	14	CR.14.13.fna	2	CR13_14
+C13.28			control	28	CR.28.13.fna	2	CR13_28
+C14.0			control	0	CR.0.14.fna	2	CR14_0
+C14.14			control	14	CR.14.14.fna	2	CR14_14
+C14.28			control	28	CR.28.14.fna	2	CR14_28
+C15.0			control	0	CR.0.15.fna	2	CR15_0
+C15.14			control	14	CR.14.15.fna	2	CR15_14
+C15.28			control	28	CR.28.15.fna	2	CR15_28
+H11.0			heat	0	HA.0.11.fna	2	HA11_0
+H11.14			heat	14	HA.14.11.fna	2	HA11_14
+H11.28			heat	28	HA.28.11.fna	2	HA11_28
+H12.0			heat	0	HA.0.12.fna	2	HA12_0
+H12.14			heat	14	HA.14.12.fna	2	HA12_14
+H12.28			heat	28	HA.28.12.fna	2	HA12_28
+H13.0			heat	0	HA.0.13.fna	2	HA13_0
+H13.14			heat	14	HA.14.13.fna	2	HA13_14
+H13.28			heat	28	HA.28.13.fna	2	HA13_28
+H14.0			heat	0	HA.0.14.fna	2	HA14_0
+H14.14			heat	14	HA.14.14.fna	2	HA14_14
+H14.28			heat	28	HA.28.14.fna	2	HA14_28
+H15.0			heat	0	HA.0.15.fna	2	HA15_0
+H15.14			heat	14	HA.14.15.fna	2	HA15_14
+H15.28			heat	28	HA.28.15.fna	2	HA15_28

@@ -26,7 +26,7 @@ add_qiime_labels.py -i clean_data/first_epr -m mapping.txt -c InputFileName -o $
 start_time=`date "+%Y-%m-%d %H:%M:%S"`
 echo "pick otu start at $start_time"
 
-pick_open_reference_otus.py -i ${output_dir}/add_labels/combined_seqs.fna -o ${output_dir}/pick_otus -s 0.1 -m usearch61
+pick_open_reference_otus.py -i ${output_dir}/add_labels/combined_seqs.fna -o ${output_dir}/pick_otus -s 0.1 -m usearch61 -r 97_otus.fasta
 
 end_time=`date "+%Y-%m-%d %H:%M:%S"`
 echo "pick otu ending at $end_time"
